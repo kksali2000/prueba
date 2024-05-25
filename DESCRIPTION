@@ -2,7 +2,7 @@ Package: CatastRoEus
 Title: Interface to the 'INSPIRE' services of 'Catastro de Navarra'
 Version: 0.0.1.0
 Authors@R: 
-    person("Ant", "Sali", , "antonio.sali@gmail.com", role = c("aut", "cre"),
+    person("Jimena", "Sali", , "jimena.sali@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0001-8457-4658"))
 Description: Access public spatial data available under the 'INSPIRE'
     directive. Tools for downloading references, buildings and addresses
@@ -18,7 +18,8 @@ Imports:
     sf (>= 1.0.0),
     stringi,
     tibble,
-    xml2
+    xml2,
+    curl
 Suggests:
     CatastRo,
     dplyr,
